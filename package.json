@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-connection-examples",
+  "version": "1.0.0",
+  "description": "Contoh koneksi MongoDB menggunakan native mongodb driver dan mongoose",
+  "main": "src/mongo-native.js",
+  "scripts": {
+    "start-native": "node src/mongo-native.js",
+    "start-mongoose": "node src/mongoose.js"
+  },
+  "author": "you",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^5.8.0",
+    "mongoose": "^7.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
